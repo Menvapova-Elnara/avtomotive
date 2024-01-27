@@ -1,0 +1,81 @@
+.pricing {
+	padding: 50px 0 70px 0;
+	background: #efefef;
+
+	&__wrapper {
+	}
+
+	&__wrapper-title {
+		text-align: center;
+		color: #130e27;
+		font-family: Montserrat Bold;
+		font-size: 50px;
+		font-weight: 700;
+		letter-spacing: -1px;
+		margin-bottom: 50px;
+	}
+
+	&__wrapper-offer {
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
+	}
+}
+
+.offer {
+	&_item {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		padding: 35px 68px;
+		border-radius: 5px;
+		background: #fff;
+	}
+
+	&_item-suptitle {
+		color: #161616;
+		font-family: "PT Serif Regular";
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 28px; /* 127.273% */
+		letter-spacing: -0.66px;
+		margin-bottom: 40px;
+	}
+
+	&_item-money {
+		color: #c62314;
+		font-family: Montserrat Medium;
+		font-size: 50px;
+		font-weight: 700;
+		letter-spacing: -1px;
+		margin-bottom: 30px;
+	}
+
+	&_item-description {
+		height: 140px;
+		color: #161616;
+		font-family: "PT Serif Regular";
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 28px; /* 140% */
+		letter-spacing: -0.6px;
+		margin-bottom: 40px;
+	}
+
+	&_item-button {
+		color: #fff;
+		font-family: Montserrat Medium;
+		font-size: 22px;
+		font-weight: 500;
+		border-radius: 5px;
+		border: 1px solid #130e27;
+		background: #130e27;
+		transition: 0.2s;
+
+		&:hover {
+			background: #c62314;
+			border: 1px solid #c62314;
+		}
+	}
+}

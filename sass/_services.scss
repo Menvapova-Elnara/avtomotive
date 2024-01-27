@@ -1,0 +1,53 @@
+.services {
+	&__wrapper {
+		padding: 50px 0 70px 0;
+	}
+
+	&__wrapper-title {
+		display: flex;
+		font-family: Montserrat;
+		font-size: 50px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: -1px;
+		gap: 15px;
+		margin-bottom: 83px;
+		&_1 {
+			color: #c62314;
+		}
+
+		&_2 {
+			color: #130e27;
+		}
+	}
+
+	&__wrapper-offer {
+		display: flex;
+		justify-content: space-between;
+
+		&_item {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			max-width: 166px;
+			text-align: center;
+		}
+	}
+}
+
+.offer {
+	&_item-ikon {
+		max-width: 140px;
+		margin: auto;
+		margin-bottom: 60px;
+	}
+
+	&_item-text {
+		font-family: "PT Serif Regular";
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 28px;
+		letter-spacing: -0.6px;
+	}
+}

@@ -1,0 +1,26 @@
+.footer {
+	padding: 61px 0;
+	background: #130e27;
+
+	&__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	}
+
+	&__wrapper-info {
+		font-family: "PT Serif Regular";
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 28px; /* 140% */
+		letter-spacing: -0.4px;
+
+		&_1 {
+			color: #fff;
+		}
+
+		&_2 {
+			color: #c62314;
+		}
+	}
+}

@@ -1,0 +1,35 @@
+.story {
+	padding: 34px 0;
+	background-color: #130e27;
+
+	&__wrapper {
+		display: flex;
+    justify-content: space-between;
+	}
+
+	&__wrapper-description {
+    max-width: 611px;
+		color: #fff;
+		font-family: "PT Serif Regular";
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 28px; /* 140% */
+		letter-spacing: -0.4px;
+	}
+
+	&__wrapper-button {
+    width: 270px;
+		color: #fff;
+		font-family: Montserrat Medium;
+		font-size: 22px;
+		font-weight: 500;
+		border: 1px solid #c62314;
+		border-radius: 5px;
+		background: #c62314;
+    transition: 2s;
+
+    &:hover{
+      opacity: 0.5;
+    }
+	}
+}
